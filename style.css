@@ -9,7 +9,8 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
 }
 
 .color {
@@ -18,7 +19,7 @@ h2 {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .healthy-food {
@@ -46,4 +47,44 @@ h2 {
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 
+}
+
+.different-food {
+    text-align: center;
+}
+
+.food-item {
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.food-item img {
+    width: 90%;
+}
+
+#pizza-item {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+}
+
+#burger-item {
+
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+
+#chicken-item {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, yellow);
+    border-image-slice: 1;
 }
