@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.color {
+    color: orange;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.healthy-food {
+    width: 50%;
+    padding-left: 5%;
+
+}
+
+.healthy-food img {
+    width: 100%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.top-area {
+    width: 100%;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+
+}
